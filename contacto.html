@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PAN Tampico</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/logo-pan.svg" alt="PAN Tampico" class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="principios.html">Principios</a></li>
+                <li><a href="organizacion.html">Organización</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>¡Estamos aquí para escucharte!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Envíanos un mensaje</h2>
+                    <p>Completa el formulario y nos pondremos en contacto contigo a la brevedad.</p>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="afiliacion">Quiero afiliarme</option>
+                                <option value="voluntario">Quiero ser voluntario</option>
+                                <option value="informacion">Solicitud de información</option>
+                                <option value="evento">Información sobre eventos</option>
+                                <option value="sugerencia">Sugerencia o comentario</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" required>
+                                Acepto el aviso de privacidad
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2>Información de contacto</h2>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Dirección</h3>
+                            <p>Calle Principal #123<br>Colonia Centro<br>Tampico, Tamaulipas<br>C.P. 89000</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+528331234567">(833) 123-4567</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contacto@pantampico.org.mx">contacto@pantampico.org.mx</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h3>Horario de atención</h3>
+                            <p><strong>Lunes a Viernes</strong><br>9:00 AM - 6:00 PM</p>
+                            <p><strong>Sábados</strong><br>9:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Síguenos en redes sociales</h3>
+                        <div class="social-links-contact">
+                            <a href="#" class="social-btn facebook">
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-btn twitter">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-btn instagram">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-btn youtube">
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-container">
+                <h2>Encuéntranos</h2>
+                <div class="map-responsive">
+                    <!-- Replace with actual Google Maps embed -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29776.08827537598!2d-97.8691253!3d22.2331469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7fef8c5a9d4e9%3A0x8f3e4b0e8d0a9a0a!2sTampico%2C%20Tamaulipas!5e0!3m2!1ses!2smx!4v1234567890"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="quick-actions">
+                <h2>¿Qué te interesa?</h2>
+                <div class="quick-actions-grid">
+                    <a href="#" class="quick-action-card">
+                        <div class="quick-action-icon">👥</div>
+                        <h3>Afiliarme</h3>
+                        <p>Únete al PAN y sé parte del cambio</p>
+                    </a>
+                    <a href="#" class="quick-action-card">
+                        <div class="quick-action-icon">🤝</div>
+                        <h3>Ser voluntario</h3>
+                        <p>Colabora en nuestras actividades</p>
+                    </a>
+                    <a href="galeria.html" class="quick-action-card">
+                        <div class="quick-action-icon">📸</div>
+                        <h3>Ver eventos</h3>
+                        <p>Conoce nuestras actividades</p>
+                    </a>
+                    <a href="principios.html" class="quick-action-card">
+                        <div class="quick-action-icon">📖</div>
+                        <h3>Conocer más</h3>
+                        <p>Aprende sobre nuestros principios</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="images/logo-pan-white.svg" alt="PAN Tampico" class="footer-logo">
+                    <p>Comité Municipal en Tampico</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="social-icon facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="social-icon twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="social-icon instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="social-icon youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="principios.html">Principios</a></li>
+                        <li><a href="organizacion.html">Organización</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📍 Calle Principal #123, Tampico, Tamps.</li>
+                        <li>📞 (833) 123-4567</li>
+                        <li>✉️ contacto@pantampico.org.mx</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horario de Atención</h4>
+                    <ul>
+                        <li>Lunes a Viernes</li>
+                        <li>9:00 AM - 6:00 PM</li>
+                        <li>Sábados</li>
+                        <li>9:00 AM - 2:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PAN Tampico. Todos los derechos reservados.</p>
+                <p>¡Unidos Todos en Acción!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
